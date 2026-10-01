@@ -1,0 +1,10 @@
+GSTR-3B Online Turnover Calculator
+Online Deployment 3.1
+
+Rules:
+- Turnover = Table 3.1 A + B + C only
+- D (Inward RCM) excluded
+- E (Non-GST outward) excluded
+- Missing-return check uses the 18th of the following month rule
+- Supports Last 12 Months and Last 24 Months
+- Supports multiple GSTINs in one upload batch

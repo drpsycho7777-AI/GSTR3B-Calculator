@@ -1,0 +1,20 @@
+GSTR3B STREAMLIT DEPLOYMENT CHECKLIST
+====================================
+
+1. Extract GSTR3B_Online_Streamlit_Deployment.zip.
+2. Create a new GitHub repo (recommended: GSTR3B-Calculator).
+3. Upload the CONTENTS of the extracted folder to the repo root.
+4. Confirm app.py is visible immediately on the repo first page.
+5. Confirm requirements.txt is beside app.py.
+6. Confirm .streamlit/config.toml exists.
+7. Open Streamlit Community Cloud.
+8. Create app / Deploy from GitHub.
+9. Repository: your-user/GSTR3B-Calculator
+10. Branch: main
+11. Main file path: app.py
+12. Deploy.
+13. First screen should show: App loaded successfully — Online Deployment 3.1
+
+If it fails:
+- Open Manage app -> Logs.
+- Check the first red Python/package error.
